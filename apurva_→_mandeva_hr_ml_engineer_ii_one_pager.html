@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apurva Chavan → Mandeva HR — ML Engineer II One‑Pager</title>
+  <meta name="description" content="Apurva Ravikar Chavan — Tailored application one‑pager for Mandeva HR: Machine Learning Engineer II (Remote · PT hours)." />
+  <style>
+    :root {
+      --bg: #0b0d10; --panel:#12151b; --ink:#eaf0f7; --muted:#9fb0c7;
+      --brand:#5ae3b3; --brand2:#4dc1ff; --chip:#1b2029; --ring:rgba(90,227,179,.35);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,Arial;line-height:1.6;color:var(--ink);background:
+      radial-gradient(1200px 800px at 80% -10%, rgba(77,193,255,.12), transparent),
+      radial-gradient(900px 700px at -10% 20%, rgba(90,227,179,.10), transparent),var(--bg)}
+    a{color:var(--brand2);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1100px;margin:0 auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+    .logo{display:flex;align-items:center;gap:12px}
+    .mark{width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,var(--brand),var(--brand2));box-shadow:0 0 0 6px var(--ring)}
+    h1{font-size:18px;margin:0;font-weight:650;letter-spacing:.2px}
+    .cta{display:flex;gap:10px;flex-wrap:wrap}
+    .btn{border:1px solid rgba(255,255,255,.12);background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));padding:10px 14px;border-radius:12px;color:var(--ink);font-weight:600}
+    .btn:hover{transform:translateY(-1px);border-color:var(--brand2)}
+
+    .hero{display:grid;grid-template-columns:1.5fr 1fr;gap:28px;padding:28px 0;align-items:center}
+    .hero h2{font-size:clamp(28px,4.2vw,44px);line-height:1.15;margin:6px 0 10px}
+    .hero p{color:var(--muted);margin:0 0 12px}
+    .panel{background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:16px}
+    .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+    .chip{padding:8px 10px;background:var(--chip);border:1px solid rgba(255,255,255,.07);border-radius:999px;font-size:13px}
+
+    section{margin-top:34px}
+    h3{font-size:18px;letter-spacing:.3px;margin:0 0 12px}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+    .col-4{grid-column:span 4}.col-6{grid-column:span 6}.col-8{grid-column:span 8}
+    .card{background:var(--panel);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px}
+    .card h4{margin:2px 0 6px;font-size:16px}
+    .muted{color:var(--muted);font-size:14px}
+    ul.tight{margin:8px 0 0 18px;padding:0}
+    ul.tight li{margin:6px 0}
+
+    footer{margin:36px 0 12px;padding-top:18px;border-top:1px solid rgba(255,255,255,.08);color:var(--muted);font-size:13px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.col-8,.col-6,.col-4{grid-column:span 12}}
+      /* ✨ Extra flair */
+    .rolebar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:12px;padding:10px 12px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.08)}
+    .badge{background:var(--chip);border:1px solid rgba(255,255,255,.08);border-radius:999px;padding:6px 10px;font-size:13px}
+    .badge.good{border-color:rgba(90,227,179,.35);box-shadow:0 0 0 2px rgba(90,227,179,.12) inset}
+    .section-title{display:flex;align-items:center;gap:10px}
+    .section-title .dot{width:8px;height:8px;border-radius:50%;background:linear-gradient(135deg,var(--brand),var(--brand2));box-shadow:0 0 10px var(--brand2)}
+    .matrix{display:grid;grid-template-columns:1fr 1.2fr;gap:12px}
+    .matrix .cell{background:var(--panel);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:12px}
+    .matrix .cell h4{margin:0 0 6px;font-size:14px;color:var(--muted)}
+    .copybox{display:grid;gap:8px}
+    .copybox textarea{width:100%;min-height:110px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:#0e1217;color:var(--ink);padding:10px}
+    .copybox .copyrow{display:flex;justify-content:space-between;align-items:center}
+    .toast{position:fixed;bottom:18px;right:18px;background:#0f141a;border:1px solid rgba(255,255,255,.12);padding:10px 12px;border-radius:10px;opacity:0;transform:translateY(10px);transition:.18s ease}
+    .toast.show{opacity:1;transform:translateY(0)}
+      /* 🎨 Color boost */
+    :root{
+      --pink:#ff6ad5; --violet:#8b5cf6; --purple:#a855f7; --indigo:#6366f1;
+      --blue:#3b82f6; --cyan:#22d3ee; --teal:#14b8a6; --green:#34d399; --lime:#a3e635;
+      --yellow:#facc15; --orange:#fb923c; --red:#f87171;
+    }
+    @keyframes floatGradient{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+    body::before{content:"";position:fixed;left:-10%;right:-10%;top:-20%;height:42vh;z-index:-1;pointer-events:none;filter:blur(60px);opacity:.16;background:linear-gradient(90deg,var(--pink),var(--violet),var(--cyan),var(--green),var(--orange));background-size:200% 200%;animation:floatGradient 16s ease-in-out infinite}
+
+    /* Headings with gradient ink */
+    .hero h2{background:linear-gradient(90deg,var(--brand2),var(--pink),var(--yellow));-webkit-background-clip:text;background-clip:text;color:transparent}
+    h3{background:linear-gradient(90deg,var(--cyan),var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}
+
+    /* Buttons */
+    .btn{border:none;background:linear-gradient(90deg,var(--brand),var(--brand2));color:#051015;box-shadow:0 6px 18px rgba(77,193,255,.18)}
+    .cta .btn:nth-child(2){background:linear-gradient(90deg,var(--pink),var(--violet));color:#140714}
+    .cta .btn:nth-child(3){background:linear-gradient(90deg,var(--yellow),var(--orange));color:#1a1208}
+    .btn:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(77,193,255,.28)}
+
+    /* Colorful badges & chips */
+    .rolebar{background:linear-gradient(90deg,rgba(255,255,255,.06),rgba(255,255,255,.02));border:1px solid transparent;border-image:linear-gradient(90deg,var(--pink),var(--cyan)) 1}
+    .badge{background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.12)}
+    .badge.good{background:linear-gradient(90deg,var(--teal),var(--cyan));color:#051015}
+    .badge:nth-child(2){background:linear-gradient(90deg,var(--yellow),var(--orange));color:#1a1208}
+    .badge:nth-child(3){background:linear-gradient(90deg,var(--blue),var(--cyan));color:#051015}
+    .badge:nth-child(4){background:linear-gradient(90deg,var(--pink),var(--violet))}
+    .badge:nth-child(5){background:linear-gradient(90deg,var(--green),var(--lime));color:#0b1408}
+    .badge:nth-child(6){background:linear-gradient(90deg,var(--red),var(--orange))}
+    .badge:nth-child(7){background:linear-gradient(90deg,var(--purple),var(--indigo))}
+
+    .chip{border:1px solid transparent;background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.03)) padding-box,linear-gradient(90deg,var(--violet),var(--cyan)) border-box}
+    .chips .chip:nth-child(3n+1){background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.03)) padding-box,linear-gradient(90deg,var(--violet),var(--cyan)) border-box}
+    .chips .chip:nth-child(3n+2){background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.03)) padding-box,linear-gradient(90deg,var(--pink),var(--orange)) border-box}
+    .chips .chip:nth-child(3n){background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.03)) padding-box,linear-gradient(90deg,var(--green),var(--lime)) border-box;color:#0b1408}
+
+    /* Gradient borders for cards/panels */
+    .card,.panel{position:relative;border:1px solid transparent;background:
+      linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.03)) padding-box,
+      linear-gradient(135deg,var(--violet),var(--cyan)) border-box}
+    .card:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25),0 0 0 1px rgba(255,255,255,.06) inset}
+
+    /* Section dots glow a bit more */
+    .section-title .dot{box-shadow:0 0 16px var(--pink),0 0 24px var(--cyan)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">
+        <div class="mark" aria-hidden="true"></div>
+        <h1>Apurva Ravikar Chavan → <span style="opacity:.9">Mandeva HR</span></h1>
+      </div>
+      <nav class="cta">
+        <a class="btn" href="mailto:apurvachavan125@gmail.com">Email</a>
+        <a class="btn" href="https://www.linkedin.com/in/apurvachavan125/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/Apurva1205" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </header>
+    <div class="rolebar">
+      <span class="badge good">ML Engineer II</span>
+      <span class="badge">$100k–$160k</span>
+      <span class="badge">Remote only</span>
+      <span class="badge">Pacific Time hours</span>
+      <span class="badge">2+ years exp</span>
+      <span class="badge">No visa sponsorship</span>
+      <span class="badge">US‑based</span>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div>
+        <p class="stamp">Tailored for: <strong>Mandeva HR · Machine Learning Engineer II</strong> · Remote only · Prefers PT hours</p>
+        <h2>ML engineer who ships Marketing‑AI models, pipelines, and agent workflows on GCP/AWS.</h2>
+        <p>I turn messy data into reliable features, automate pipelines, and productionize models with monitoring and guardrails.</p>
+        <div class="chips">
+          <span class="chip">Python · SQL</span>
+          <span class="chip">GCP · BigQuery</span>
+          <span class="chip">Vertex AI · Cloud Run</span>
+          <span class="chip">AWS · S3/Lambda</span>
+          <span class="chip">Airflow/Composer</span>
+          <span class="chip">MLflow · W&B</span>
+          <span class="chip">Jupyter/iPython</span>
+          <span class="chip">Agents · RAG · Guardrails</span>
+          <span class="chip">Data Structures & Algos</span>
+        </div>
+      </div>
+      <aside class="panel">
+        <h3 style="margin-top:0">Quick profile</h3>
+        <div class="muted">US‑based (CT) · Comfortable working Pacific Time · Remote‑first</div>
+        <ul class="tight">
+          <li><strong>Tooling:</strong> pandas, NumPy, scikit‑learn, PyTorch; SQL; Git/Linux</li>
+          <li><strong>Ops:</strong> CI/CD for analytics & ML; experiment tracking; data contracts</li>
+          <li><strong>Focus:</strong> Marketing AI, recommendations, ranking & scoring</li>
+        </ul>
+      </aside>
+    </section>
+    <!-- MATCH MATRIX -->
+    <section>
+      <div class="section-title"><span class="dot"></span><h3>JD → My Fit (Match Matrix)</h3></div>
+      <div class="matrix">
+        <div class="cell"><h4>JD</h4><div><strong>Train & Deploy ML Models</strong></div><div class="muted">Marketing AI</div></div>
+        <div class="cell"><h4>What I’ll ship</h4><ul class="tight"><li>Baseline → calibrated model with versioned artifacts</li><li>Batch + real‑time inference endpoints on Cloud Run</li></ul></div>
+
+        <div class="cell"><h4>JD</h4><div><strong>Automate data pipelines</strong></div><div class="muted">Airflow/Composer</div></div>
+        <div class="cell"><h4>What I’ll ship</h4><ul class="tight"><li>DAGs with retries, SLAs, alerts</li><li>dbt‑style tests + freshness & drift monitors</li></ul></div>
+
+        <div class="cell"><h4>JD</h4><div><strong>Integrate AI agents</strong></div><div class="muted">Reduce toil</div></div>
+        <div class="cell"><h4>What I’ll ship</h4><ul class="tight"><li>Retrieval + guardrails + telemetry</li><li>HITL review to improve accuracy over time</li></ul></div>
+
+        <div class="cell"><h4>JD</h4><div><strong>Scale on GCP/AWS</strong></div><div class="muted">BigQuery, Vertex AI</div></div>
+        <div class="cell"><h4>What I’ll ship</h4><ul class="tight"><li>Cost/latency budgets & on‑call playbooks</li><li>Observability (logs/metrics/traces) by default</li></ul></div>
+
+        <div class="cell"><h4>JD</h4><div><strong>Debug, optimize, enhance</strong></div><div class="muted">Performance</div></div>
+        <div class="cell"><h4>What I’ll ship</h4><ul class="tight"><li>Profiled bottlenecks; caching & batching</li><li>Regression alarms + rollback paths</li></ul></div>
+
+        <div class="cell"><h4>JD</h4><div><strong>Keep up with best practices</strong></div><div class="muted">Fast learner</div></div>
+        <div class="cell"><h4>What I’ll ship</h4><ul class="tight"><li>Small RFCs summarizing trade‑offs</li><li>Weekly experiment readouts → decisions</li></ul></div>
+      </div>
+    </section>
+
+    <!-- ROLE MATCH -->
+    <section>
+      <h3>Why I’m a fit for Mandeva HR’s ML Engineer II role</h3>
+      <div class="grid">
+        <div class="card col-6">
+          <h4>Train & deploy ML models</h4>
+          <p class="muted">Ship baselines fast, then harden with monitoring/alerts.</p>
+          <ul class="tight">
+            <li>Feature pipelines from raw → tidy datasets</li>
+            <li>Batch/real‑time inference; versioned artifacts & rollbacks</li>
+          </ul>
+        </div>
+        <div class="card col-6">
+          <h4>Automate data pipelines</h4>
+          <p class="muted">Composer/Airflow DAGs with SLAs, retries, and data checks.</p>
+          <ul class="tight">
+            <li>dbt‑style tests, freshness checks, drift monitors</li>
+            <li>Lean docs so others can extend safely</li>
+          </ul>
+        </div>
+        <div class="card col-6">
+          <h4>Integrate AI agents</h4>
+          <p class="muted">Add agentic flows where they reduce toil and improve accuracy.</p>
+          <ul class="tight">
+            <li>Retrieval, guardrails, and telemetry for evaluations</li>
+            <li>Human‑in‑the‑loop for continuous improvement</li>
+          </ul>
+        </div>
+        <div class="card col-6">
+          <h4>Scale on GCP/AWS</h4>
+          <p class="muted">Vertex AI/Cloud Run or AWS primitives based on constraints.</p>
+          <ul class="tight">
+            <li>Cost/latency budgets with on‑call playbooks</li>
+            <li>Observability by default: logs, metrics, traces</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- LLM EXPERIENCE -->
+    <section>
+      <h3>LLM experience & how I’ll help Mandeva HR</h3>
+      <div class="grid">
+        <div class="card col-6">
+          <h4>Evaluation & Quality</h4>
+          <p class="muted">Eval harnesses & human‑in‑the‑loop rubrics for agentic systems.</p>
+          <ul class="tight">
+            <li>Scenario banks, error taxonomies; pass@k & rubric scores in dashboards</li>
+            <li>Canary tests & guardrails to catch unsafe/low‑quality outputs</li>
+          </ul>
+        </div>
+        <div class="card col-6">
+          <h4>Marketing AI use‑cases</h4>
+          <p class="muted">Models & agents for lead scoring, content tagging, persona routing.</p>
+          <ul class="tight">
+            <li>LLM‑assisted enrichment with quality checks and audit trails</li>
+            <li>A/Bs on funnel lift; cost × latency × win‑rate trade‑offs</li>
+          </ul>
+        </div>
+        <div class="card col-6">
+          <h4>Labeling Ops & Data Quality</h4>
+          <p class="muted">Lightweight labeling flows for fast iteration.</p>
+          <ul class="tight">
+            <li>Consensus/IA checks, spot audits, and drift monitors</li>
+            <li>Event pipelines feeding models with freshness SLAs</li>
+          </ul>
+        </div>
+        <div class="card col-6">
+          <h4>Cost & Latency</h4>
+          <p class="muted">Reduce spend & p95 via caching, routing, and specialists.</p>
+          <ul class="tight">
+            <li>Prompt templates + retrieval guards; batch inference where safe</li>
+            <li>Traceability: per‑prompt cost, win‑rate, regression alarms</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section>
+      <h3>Evidence & recent work</h3>
+      <div class="grid">
+        <article class="card col-6">
+          <h4>AI Resume Enhancer (IR + Scoring)</h4>
+          <p class="muted">Parser + matching engine using embeddings to surface gaps & improve ATS outcomes.</p>
+          <ul class="tight"><li>Ranking metrics & ablations; real‑time API powering a dashboard</li></ul>
+          <p><a href="https://github.com/Apurva1205/AI-RESUME-ENHANCER" target="_blank" rel="noopener">View repository ↗</a></p>
+        </article>
+        <article class="card col-6">
+          <h4>Energy Forecasting (ARIMA/LSTM)</h4>
+          <p class="muted">Time‑series forecasting with anomaly alerts; productionized pipelines.</p>
+          <ul class="tight"><li>North‑star: forecast error & alert precision; dashboard handoff</li></ul>
+          <p><a href="https://github.com/Apurva1205/Time-Series-Forecasting-For-Energy-Consumption" target="_blank" rel="noopener">View repository ↗</a></p>
+        </article>
+        <article class="card col-6">
+          <h4>LLMs in Finance</h4>
+          <p class="muted">Explorations of RAG and evaluation patterns for financial text.</p>
+          <ul class="tight"><li>Prompt logging, rubric scoring, guardrail canaries</li></ul>
+          <p><a href="https://github.com/Apurva1205/LLMs-in-Finance" target="_blank" rel="noopener">View repository ↗</a></p>
+        </article>
+        <article class="card col-6">
+          <h4>Agentic Demo (SDE)</h4>
+          <p class="muted">Small agent workflow with telemetry & error taxonomies for debugging.</p>
+          <ul class="tight"><li>Retrieval, scoring, and HITL review loops</li></ul>
+          <p><a href="https://apurva1205.github.io/SDE/" target="_blank" rel="noopener">Live demo ↗</a></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 1-WEEK PLAN -->
+    <section>
+      <h3>How I’d create impact in Week 1</h3>
+      <div class="grid">
+        <div class="card col-8">
+          <ul class="tight">
+            <li><strong>Day 1–2:</strong> Stand up GCP project & service accounts; land raw data in BigQuery; define schemas & quality checks.</li>
+            <li><strong>Day 3:</strong> Baseline model in notebooks; package & deploy a simple API on Cloud Run with logging & tracing.</li>
+            <li><strong>Day 4:</strong> Automate training/inference with Composer; add MLflow tracking; create a health dashboard.</li>
+            <li><strong>Day 5:</strong> Small agent demo (retrieval/guardrails) for the Marketing AI use case; cost/latency budget & next experiments.</li>
+          </ul>
+        </div>
+        <div class="card col-4">
+          <h4 style="margin-top:0">Working style</h4>
+          <p class="muted">Crisp docs, small diffs, measurable wins. I bias to ship, learn, and iterate.</p>
+          <div class="chips">
+            <span class="chip">Docs → Decisions</span>
+            <span class="chip">Tidy Data</span>
+            <span class="chip">Ship Weekly</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- IDEA PITCH -->
+    <section>
+      <div class="card">
+        <div class="section-title"><span class="dot"></span><h3>Idea Pitch: “Marketing AI Accelerator” (4–6 weeks)</h3></div>
+        <div class="grid">
+          <div class="col-6">
+            <ul class="tight">
+              <li><strong>Problem:</strong> Lead enrichment & scoring are slow/manual; data freshness is inconsistent; agent trials lack guardrails & clear KPIs.</li>
+              <li><strong>Solution:</strong> A lean accelerator on GCP that unifies data in BigQuery, adds quality checks, ships a calibrated <em>lead‑scoring model</em> + an <em>LLM enrichment agent</em>, and exposes <code>/score</code> + <code>/enrich</code> services on Cloud Run with observability and cost controls.</li>
+              <li><strong>Deliverables:</strong>
+                <ul class="tight">
+                  <li>Data: connectors → BigQuery; dbt‑style models; freshness & drift tests</li>
+                  <li>Models: GBM baseline + embedding features; MLflow‑versioned</li>
+                  <li>Agents: retrieval + guardrails; canary tests; HITL review loop</li>
+                  <li>Services: batch + real‑time inference; on‑call runbook</li>
+                  <li>Dashboard: Hex/Looker KPIs (conversion, freshness, p95 latency, $/1k calls)</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul class="tight">
+              <li><strong>Metrics to move (targets):</strong> +10–20% MQL→SQL lift (A/B); −50% time‑to‑enrichment; p95 &lt;300ms (scoring) / &lt;2s (enrichment); &lt;$X per 1k calls; freshness &lt;15 min.</li>
+              <li><strong>Timeline:</strong> Week 1 foundation (see below) → Week 2 models/agent → Week 3 A/B rollout → Weeks 4–6 optimize & expand signals.</li>
+              <li><strong>Risks & mitigations:</strong> data quality (tests & contracts), label noise (consensus audits), cost spikes (routing/caching/budgets), regressions (canaries & alarms).</li>
+              <li><strong>Quick ask:</strong> Read‑only access to sample data (CRM/warehouse), API keys for enrichment, and a 15‑min kickoff.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="copybox" style="margin-top:12px">
+          <textarea id="pitch">I propose a lightweight “Marketing AI Accelerator” for your client: unify lead and content data in BigQuery with quality checks; ship a calibrated lead‑scoring model plus an LLM enrichment agent with retrieval and guardrails; orchestrate with Composer and expose /score and /enrich services on Cloud Run with monitoring, cost budgets, and SLAs. In 4–6 weeks, we aim to lift MQL→SQL by 10–20%, cut time‑to‑enrichment by ~50%, and keep p95 latency &lt;300ms (scoring) / &lt;2s (enrichment). I’ll bring dbt‑style tests, MLflow versioning, canary tests, and a Hex/Looker dashboard tracking conversion, freshness, p95, and cost per 1k calls.</textarea>
+          <div class="copyrow">
+            <span class="muted">Use this pitch in an email or the application field.</span>
+            <button class="btn" id="copyPitch" type="button">Copy Pitch</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLURB WITH COPY BUTTON -->
+    <section>
+      <div class="card">
+        <div class="section-title"><span class="dot"></span><h3>“Why Mandeva HR” (copy‑ready)</h3></div>
+        <div class="copybox">
+          <textarea id="blurb">I’m excited about Mandeva HR’s mission to help US startups build and scale great teams. My background aligns directly with your ML Engineer II role: I ship models and automated pipelines on GCP (BigQuery, Vertex AI, Composer), integrate agents with guardrails for Marketing AI use‑cases, and harden everything with monitoring, alerts, and cost/latency budgets. I’m US‑based, comfortable working Pacific Time, and I bias toward fast, measurable impact — the same week.</textarea>
+          <div class="copyrow">
+            <span class="muted">Paste this into the application field on Wellfound.</span>
+            <button class="btn" id="copyBtn" type="button">Copy</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section>
+      <div class="card">
+        <h3 style="margin:0 0 6px">Let’s talk</h3>
+        <p class="muted" style="margin:0 0 10px">15‑minute intro? I can walk through shipped experiments and how I’d tackle Marketing AI pipelines for your client.</p>
+        <div class="cta">
+          <a class="btn" href="mailto:apurvachavan125@gmail.com?subject=Mandeva%20HR%20—%2015‑min%20chat">Email Apurva</a>
+          <a class="btn" href="https://www.linkedin.com/in/apurvachavan125/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+          <a class="btn" href="https://github.com/Apurva1205" target="_blank" rel="noopener">Browse GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>© <span id="year"></span> Apurva Ravikar Chavan</div>
+      <div class="muted">Built with plain HTML/CSS</div>
+    </footer>
+  </div>
+  <script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  function showToast(msg){
+    let t = document.getElementById('toast');
+    if (!t) { t = document.createElement('div'); t.id = 'toast'; t.className = 'toast'; document.body.appendChild(t); }
+    t.textContent = msg || 'Copied to clipboard';
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 1400);
+  }
+  const copyBtn = document.getElementById('copyBtn');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', () => {
+      const text = document.getElementById('blurb').value;
+      navigator.clipboard.writeText(text).then(() => showToast('Blurb copied')); 
+    });
+  }
+  const copyPitch = document.getElementById('copyPitch');
+  if (copyPitch) {
+    copyPitch.addEventListener('click', () => {
+      const text = document.getElementById('pitch').value;
+      navigator.clipboard.writeText(text).then(() => showToast('Pitch copied'));
+    });
+  }
+</script>
+</body>
+</html>
